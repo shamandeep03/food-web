@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.category {
+  background: #e8e8e8;
+  text-transform: capitalize;
+  padding: 2px;
+  border-radius: 8px;
+  padding-left: 11px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 11px !important;
+}
+.list2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 11px !important;
+}
+
+.list2 li {
+  padding: 10px;
+  margin-right: 10px;
+}
+.prouct-details {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.product {
+  display: flex;
+}
+.prouct-details {
+  margin-left: 20px;
+}
+.list li {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #222;
+}
+.prod_name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+span.prod_price {
+  color: red;
+}
+.prod_cat{
+  opacity: 0.7;
+}
